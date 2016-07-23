@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/desert_oasis_login"
+    android:alpha=".6">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Oasis"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="60dp"
+        android:textColor="#5eefff" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#5eefff"
+        android:hint="USERNAME"
+        android:textSize="40dp"
+        android:background="#f3f5ff" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText2"
+        android:textColor="#5eefff"
+        android:hint="PASSWORD"
+        android:textSize="40dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:background="#f3f5ff" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGIN / REGISTER"
+        android:id="@+id/button"
+        android:layout_marginTop="78dp"
+        android:layout_below="@+id/editText2"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
